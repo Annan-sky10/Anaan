@@ -1,0 +1,167 @@
+/* here masha start*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hedear{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: #66cccc;
+    align-items: center;
+    list-style-type: none;
+    padding: 14px;
+    min-height: 8vh;
+   
+}
+.logo{
+text-transform: capitalize;
+color: rgb(23, 26, 26);
+letter-spacing: 5px;
+font-size: 20px;
+
+}
+ul{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 14px;
+
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(121, 107, 115) ;
+}
+
+.burger{
+ display: none;
+ cursor: pointer;
+}
+.burger div{
+   background-color:  rgb(209, 223, 223);
+    width: 25px;
+    height: 3px;
+    margin: 2px;
+   
+}
+
+
+
+
+
+/* نسخة الهاتف*/
+
+@media screen and (max-width: 970px) {
+    body{
+       overflow-x: hidden; 
+       text-align: center;
+    }
+.nav-links{
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #6aa3a1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    line-height: 0%;
+    
+}
+
+.nav-links li{
+ opacity: 1;
+}
+.burger{
+    display: block;
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+@keyframes navLinkFade {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+}
+}
+
+
+/* here rahaf start*/
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+
+}
+
+.image {
+  flex-basis: 50%
+
+
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  top: 10px
+
+}
+h1 {
+
+    color: #66cccc;
+    bottom: 50px
+    max-width :10px;
+    
+}
+h4 {
+font-family: 'font', sans-serif;
+color: gray;
+padding-left: 30px;
+
+}
+
+
+
+.button {
+    --background: #66cccc;
+    --text: #fff;
+    text-align: center;
+    --font-size: 70px;
+    padding: 16px 40px ;
+    line-height: var(--font-size);
+    border-radius: 24px;
+    display: block;
+    font-size: var(--font-size);
+    letter-spacing: .5px;
+    background: var(--background);
+    color: var(--text);
+    box-shadow: var(--shadow);
+    justify-content: center
+
+}
+
+
+
+
