@@ -31,13 +31,16 @@ ul{
 
     
 }
+
 li{
     list-style: none;
 }
+
 a{
     text-decoration: none;
     color: black;
 }
+
 a:hover{
     color: rgb(121, 107, 115) ;
 }
@@ -46,12 +49,12 @@ a:hover{
  display: none;
  cursor: pointer;
 }
+
 .burger div{
    background-color:  rgb(209, 223, 223);
     width: 25px;
     height: 3px;
     margin: 2px;
-   
 }
 
 
@@ -128,18 +131,18 @@ img {
   top: 10px
 
 }
-h1 {
+.heading {
 
     color: #66cccc;
     bottom: 50px
     max-width :10px;
     
 }
+
 h4 {
 font-family: 'font', sans-serif;
 color: gray;
 padding-left: 30px;
-
 }
 
 
@@ -163,5 +166,31 @@ padding-left: 30px;
 }
 
 
+/* here wala start*/
 
 
+body{
+    font-family: 'Tajawal', sans-serif;
+    font-display: swap;
+    text-align: center;
+}
+
+table{
+    align-items: center;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50%;
+}
+
+td, th{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255, 251, 245);
+}
+
+.border {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}

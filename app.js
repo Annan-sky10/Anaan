@@ -9,3 +9,14 @@
 });
 
 
+/* here wala start*/
+
+function bigTable() {
+  document.getElementById("table1").style.height= "70%" ;
+  document.getElementById("table1").style.width= "90%";
+};
+
+function normalTable() {
+  document.getElementById("table1").style.height= "50%" ;
+  document.getElementById("table1").style.width= "70%";
+};
