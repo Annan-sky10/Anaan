@@ -17,9 +17,9 @@
 }
 .logo{
 text-transform: capitalize;
-color: rgb(23, 26, 26);
+color: rgb(251, 253, 253);
 letter-spacing: 5px;
-font-size: 20px;
+font-size: 23px;
 
 }
 ul{
@@ -38,7 +38,7 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(250, 242, 242);
 }
 
 a:hover{
@@ -194,3 +194,44 @@ td, th{
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
+ /*here roba start*/
+h5{
+
+    font-family: 'Tajawal', sans-serif ;
+    color:#66cccc;
+    padding-left: 40px;
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+}
+
+hr{
+    margin-left: 630px;
+    margin-right: 580px;
+    margin: center;
+}
+
+h6 {
+    font-family: 'Tajawal', sans-serif ;
+    color: gray;
+    padding-left: 50px;
+    text-align: center;
+    margin: 50px;
+    font-size: 25px;
+    }
+
+
+    input{
+       position: absolute;
+       right: 1%;
+       top: 3%;
+    }
+
+    img{
+        padding-top: 2%;
+        padding-left: 3%;
+    }
+    
+    /*here roba end*/
+
+    
